@@ -1,69 +1,106 @@
 <!DOCTYPE html>
 <html lang="es">
     <head>
-        <meta charset="UTF-8">
+        <meta charset="UTF-8" />
         <title>PetShop</title>
+        <link rel="stylesheet" href="css/estilos.css" />
     </head>
     <body>
         <header>
-            <!-- Barra superior -->
-            <ul>
-                <li>Grandes ofertas en comederos</li> 
-                <!-- Menú regional -->
-                <ul>
-                    <li>Español</li> 
-                    <li>$ARG</li>
-                </ul>
-            </ul>
-            <!-- Barra de menú principal  -->
-            <img src="img/Logo.png" alt="Logo">
-                <!-- Menú principal -->
-                <ul>
-                    <li>Categorías</li> 
-                    <li>Pets</li>
-                    <li>Nosotros</li>
-                    <li>Contactanos</li>
-                </ul>
-        </header>
-        <main>
-            <section>
-                <!-- Sección banner -->
-                <img src="img/bowl-and-pet-daities-on-green-background 1.png" alt="Background"> 
-                <ul>
-                    <li type="none">¡Es un placer tenerte aquí!</li>
-                    <li type="none">¡Comederos en descuento!</li>
-                    <li type="none">COMEDEROS</li>
+            <section class="header-container-top">
+                <p>Grandes ofertas en comederos</p>
+                <ul class="header-lista">
+                    <li>Español</li>
+                    <li>$COL</li>
                 </ul>
             </section>
+
+            <section class="header-container-bottom">
+                <p class="logo-base">
+                <img src="img/Cat.png" alt="gato" />
+                <span class="logo-first">Front</span>
+                Cat&Dog<img src="img/Dog.png" alt="perro" />
+                </p>
+                <nav>
+                    <ul class="nav-links">
+                        <li>
+                        <img src="img/pawprint 1.png" alt="" /><span>Categorías</span>
+                        </li>
+                        <li><img src="img/pawprint 1.png" alt="" /><span>Pets</span></li>
+                        <li>
+                        <img src="img/pawprint 1.png" alt="" /><span>Nosotros</span>
+                        </li>
+                        <li>
+                        <img src="img/pawprint 1.png" alt="" /><span>Contactanos</span>
+                        </li>
+                    </ul>
+                </nav>
+            </section>
+        </header>
+        <main>
+            <section class="background">
+                <ul class="info-background">
+                    <li class="main-info">¡Es un placer tenerte aquí!</li>
+                    <li class="sub-info">¡Comederos en descuento!</li>
+                    <li class="comederos">Comederos</li>
+                </ul>
+            </section>
+
             <section>
                 <!-- Sección productos -->
-                <img src="img/pawprint 1.png" alt="Patita">
-                <ul>
-                    <li type="none">Productos Destacados</li>
-                    <li type="none">Comederos - Accesorios - Comida</li>
+                <img src="img/pawprint 1.png" alt="Patita" />
+                <h1>Productos Destacados</h1>
+                <ul class="main-top-list">
+                    <li>Comederos</li>
+                    <li>Accesorios</li>
+                    <li>Comida</li>
                 </ul>
                 <!-- PRODUCTO 1 -->
-                <img src="img/churrasquito.png" alt="Producto 1">
-                <ul>
-                    <li type="none">Juguete Churrasquito</li>
-                    <li type="none">$150</li>
+                <img src="img/churrasquito.png" alt="Producto 1" />
+                <ul class="product-info">
+                    <li>Juguete Churrasquito</li>
+                    <li class="product-precio">$150</li>
                 </ul>
                 <!-- PRODUCTO 2 -->
-                <img src="img/comedero.png" alt="Producto 2">
-                <ul>
-                    <li type="none">Comedero para perro</li>
-                    <li type="none">$250</li>
+                <img src="img/comedero.png" alt="Producto 2" />
+                <ul class="product-info">
+                    <li>Comedero para perro</li>
+                    <li class="product-precio">$250</li>
                 </ul>
                 <!-- PRODUCTO 1 -->
-                <img src="img/Huesito.png" alt="Producto 1">
-                <ul>
-                    <li type="none">Juguete Huesito</li>
-                    <li type="none">$650</li>
+                <img src="img/Huesito.png" alt="Producto 1" />
+                <ul class="product-info">
+                    <li>Juguete Huesito</li>
+                    <li class="product-precio">$650</li>
                 </ul>
             </section>
         </main>
         <footer>
-            <p style="text-align: center;">Todos los derechos reservados Front End &copy; 2023</p>
+            <section class="contacto">
+                <div>
+                    <img src="img/Icono-localidad.png" alt="Localidad">
+                    <p class="titulo-contacto">Localidad</p>
+                    <p class="resp-contacto">Calle - provincia</p>
+                </div>
+                <div>
+                    <img src="img/Icono-telefono.png" alt="Telefono">
+                    <p class="titulo-contacto">Numero de Teléfono</p>
+                    <p class="resp-contacto">111-111-1111</p>
+                </div>
+                <div>
+                    <img src="img/Icono-correo.png" alt="Correo">
+                    <p class="titulo-contacto">Correo Electrónico</p>
+                    <p class="resp-contacto">Dirección de correo</p>
+                </div>
+                <p class="logo-footer">
+                    <img src="img/Cat.png" alt="gato" />
+                    <span class="logo-first-footer">Front</span>
+                    Cat&Dog<img src="img/Dog.png" alt="perro" />
+                    </p>
+            </section>
+            <p class="derechos">
+                Todos los derechos reservados Front End &copy; 2023
+            </p>
         </footer>
     </body>
 </html>

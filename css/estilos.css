@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap");
+
+* {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+/* Header */
+
+.header-container-top {
+    background-color: #222222;
+    color: #f3f3f3;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+  
+.header-lista {
+    list-style: none;
+}
+  
+.header-container-bottom {
+    background-color: #f0a83e;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+  
+.logo-base {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23.44px;
+    color: #ffffff;
+}
+  
+.logo-first {
+    color: #3c2313;
+}
+  
+.nav-links {
+    list-style: none;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 13px;
+    display: inline-block;
+}
+
+/* Main */
+
+.background {
+    background-image: url('../img/bowl-and-pet-daities-on-green-background\ 1.png');
+    height: 660px;
+    width: 100%;
+    background-size: cover;
+}
+
+.info-background {
+    font-weight: 400;
+    color: #3C2313;
+    text-align: center;
+}
+
+.main-info {
+    font-size: 30px;
+    line-height: 35.16px;
+}
+
+.sub-info {
+    font-size: 16px;
+    line-height: 18.75px;
+}
+
+.comederos {
+    font-size: 16px;
+    line-height: 18.75px;
+    color: #ffffff;
+    text-transform: uppercase;
+    background-color: #F0A83E;
+    display: inline;
+}
+
+h1 {
+    font-weight: 700;   
+    font-size: 40px;
+    line-height: 46.88px;
+    color: #3C2313;    ;
+}
+
+.main-top-list {
+    list-style: none;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 17.58px;
+    color: #666666;
+}
+
+.product-info {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 17.58px;
+    color: #3C2313;
+}
+
+.product-precio {
+    color: #F0A83E;
+}
+
+/* Footer */
+
+.contacto {
+    background-color: #3C2313;
+    margin-bottom: 10px;
+}
+
+.titulo-contacto {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23.44px;
+    color: #ffffff;
+}
+
+.resp-contacto {
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 11.72px;
+    color: #8A8787;
+}
+
+.logo-footer {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23.44px;
+    color: #F0A83E;
+}
+
+.logo-first-footer {
+    color: #ffffff;
+}
+
+.derechos {
+    background-color: #f0a83e;
+    color: #ffffff;
+}
+
+
