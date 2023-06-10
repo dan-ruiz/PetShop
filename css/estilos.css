@@ -10,20 +10,31 @@
 /* Header */
 
 .header-container-top {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
     background-color: #222222;
     color: #f3f3f3;
     font-weight: 400;
-    margin-bottom: 10px;
+    padding: 10px 60px;
 }
   
 .header-lista {
+    display: flex;
+    justify-content: space-between;
     list-style: none;
+}
+
+.header-lista > li {
+    padding-left: 10px;
 }
   
 .header-container-bottom {
     background-color: #f0a83e;
     font-weight: 700;
-    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 60px;
 }
   
 .logo-base {
@@ -42,7 +53,17 @@
     color: #ffffff;
     font-weight: 400;
     font-size: 13px;
-    display: inline-block;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-links > li {
+    padding: 0 15px;
+}
+
+.nav-links > li > a {
+    text-decoration: none;
+    color: #ffffff;
 }
 
 /* Main */
@@ -52,22 +73,34 @@
     height: 660px;
     width: 100%;
     background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .info-background {
+    display: flex;
+    flex-direction: column;
+    display: inline-block;
     font-weight: 400;
     color: #3C2313;
     text-align: center;
+    padding: 20px 80px;
 }
 
 .main-info {
     font-size: 30px;
     line-height: 35.16px;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 15px;
+    margin-bottom: 15px;
 }
 
 .sub-info {
     font-size: 16px;
     line-height: 18.75px;
+    margin-bottom: 10px;
 }
 
 .comederos {
@@ -76,14 +109,24 @@
     color: #ffffff;
     text-transform: uppercase;
     background-color: #F0A83E;
-    display: inline;
+    padding: 10px 15px;
+    border-style: none;
+    border-radius: 5px;
+}
+
+.top-descriptions {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 60px;
 }
 
 h1 {
     font-weight: 700;   
     font-size: 40px;
     line-height: 46.88px;
-    color: #3C2313;    ;
+    color: #3C2313;
 }
 
 .main-top-list {
@@ -92,24 +135,62 @@ h1 {
     font-size: 15px;
     line-height: 17.58px;
     color: #666666;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px; 
+}
+
+.main-top-list > li {
+    padding: 0 10px;
 }
 
 .product-info {
-    font-weight: 500;
+    font-weight: 700;
     font-size: 15px;
     line-height: 17.58px;
     color: #3C2313;
+    text-align: center;
+    list-style: none;
 }
 
 .product-precio {
     color: #F0A83E;
 }
 
+.productos {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 60px;
+}
+
+.productos > article {
+    padding: 0 10px;
+}
+
 /* Footer */
 
 .contacto {
     background-color: #3C2313;
-    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+}
+
+.contact-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.iconos-contacto {
+    display: flex;
+    padding: 8px 0;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
 }
 
 .titulo-contacto {
@@ -140,6 +221,7 @@ h1 {
 .derechos {
     background-color: #f0a83e;
     color: #ffffff;
+    text-align: center;
 }
 
 
